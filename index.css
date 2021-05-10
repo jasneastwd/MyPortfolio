@@ -1,20 +1,28 @@
 * {
 	box-sizing: border-box;
+	color: #e3e0e0;
+	font-size: large;
+	text-align: center;
 }
-
+.topnav {
+	text-align: center;
+}
 body {
-	background-color: #f1f1f1;
+	/* background-color: #4c6e92; */
+	background: linear-gradient(110deg, #4c6e92 60%, #5e5151 60%);
 	padding: 20px;
-	font-family: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 /* Center website */
 .main {
 	max-width: 1000px;
 	margin: auto;
 }
-h1 {
-	font-size: 50px;
-	word-break: break-all;
+
+h2 {
+	text-align: center;
+	color: #e3e0e0;
+	font-size: larger;
 }
 
 .row {
@@ -27,10 +35,11 @@ h1 {
 	padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
 	float: left;
-	width: 25%;
+	width: 33%;
+	text-align: center;
 }
 
 /* Clear floats after rows */
@@ -40,25 +49,61 @@ h1 {
 	clear: both;
 }
 
-/* Content */
-.content {
-	background-color: white;
+/* Project */
+.project {
+	background-color: #3e2d2d;
+	border-radius: 25px;
 	padding: 10px;
+	color: #3e2d2d;
+}
+
+.project:hover {
+	opacity: 0.7;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
-	.column {
+	.project {
 		width: 50%;
 	}
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-	.column {
+	.project {
 		width: 100%;
 	}
 }
+
+a {
+	color: #e3e0e0;
+	font-size: 40px;
+	text-decoration: none;
+	padding: 2px 1px 0;
+	text-align: center;
+}
+
+/* this is for social media to be aligned */
+.contacts {
+	text-align: center;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+	padding: 20px;
+	text-align: right;
+	border-radius: 50%;
+	color: #e3e0e0;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+}
+
 /* CSS HEX
 --lapis-lazuli: #2f6690ff;
 --steel-blue: #3a7ca5ff;
