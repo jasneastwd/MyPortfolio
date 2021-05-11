@@ -1,28 +1,36 @@
 * {
+	/* THIS COVERS THE ENTIRE PAGE*/
 	box-sizing: border-box;
 	color: #e3e0e0;
-	font-size: large;
 	text-align: center;
+	font-family: 'Quicksand', sans-serif;
 }
-.topnav {
-	text-align: center;
+
+.header {
+	/* THIS IS FOR THE HEADER: JASNEASTWD */
 }
+
 body {
-	/* background-color: #4c6e92; */
+	/* THIS IS FOR THE BLUE AND GREY BACKRGROUND */
 	background: linear-gradient(110deg, #4c6e92 60%, #5e5151 60%);
 	padding: 20px;
-	font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Center website */
 .main {
-	max-width: 1000px;
+	max-width: 100%;
 	margin: auto;
 }
 
 h2 {
 	text-align: center;
 	color: #e3e0e0;
-	font-size: larger;
+	font-size: large;
+}
+h1 {
+	text-align: center;
+	color: #e3e0e0;
+	font-size: xx-large;
 }
 
 .row {
@@ -53,7 +61,7 @@ h2 {
 .project {
 	background-color: #3e2d2d;
 	border-radius: 25px;
-	padding: 10px;
+	padding: 60px;
 	color: #3e2d2d;
 }
 
